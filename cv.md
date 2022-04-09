@@ -11,3 +11,9 @@ ___
 ## Summary
 I was studying Archaeology in the university while I decided to try out different types of design that I would have been able to perform in the personal computer, such as video montage, Photoshop and so on. As a started studying programming languages, I realized that I would want to pick web programming as my profession and so I am eager to work with other enthuasiasts of the same sphere and better myself further.
 ___
+## Skills
+___
+* JavaScript
+* CSS
+* Html5
+* Editors: VSCode
