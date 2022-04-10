@@ -36,3 +36,8 @@ ___
 freeCodeCamp - Responsive Web Design
 freeCodeCamp - JavaScript Algorithms and Data Structures
 ___
+## Languages
+___
+* Georgian - Native
+* English - Fluent
+* Russian - B2 +
