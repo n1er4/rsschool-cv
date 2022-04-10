@@ -29,3 +29,6 @@ const largest = Math.max(num1, num2, num3);
 console.log("Among these three numbers the largest one is " + largest);
 ```
 ___
+## Education
+* Ilia State University: Art and Science - Archaeology
+___
