@@ -32,3 +32,7 @@ ___
 ## Education
 * Ilia State University: Art and Science - Archaeology
 ___
+## Experience
+freeCodeCamp - Responsive Web Design
+freeCodeCamp - JavaScript Algorithms and Data Structures
+___
