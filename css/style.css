@@ -120,3 +120,21 @@ padding-left: 10px;
 color: rgb(233, 19, 137);
 font-size: 1.5rem;
 }
+#footer{
+    width: 100%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-shadow: 2px 2px #797979
+}
+.footer-logo{
+    width: 75px;
+}
+#footer h2{
+    font-size: 2rem;
+}
+#rschool-logo{
+    border-radius: 25%;
+}
