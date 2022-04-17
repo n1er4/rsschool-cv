@@ -34,5 +34,24 @@ h1{
 }
 .navigation a:hover{
     background-color: rgb(31, 15, 88);
-
+}
+.content-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 226, 231);
+}
+.about-me-content{
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.content-heading {
+    font-size: 1.5em;
+    padding: 20px;
+    font-weight: bolder;
+    color: rgb(38, 110, 151);
 }
