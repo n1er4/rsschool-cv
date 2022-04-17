@@ -1,1 +1,7 @@
-
+.main-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 80, 181);
+}
