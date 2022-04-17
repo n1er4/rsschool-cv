@@ -83,3 +83,19 @@ h1{
     line-height: 25px;
     padding-top: 20px;
 }
+pre{
+    max-width: 999px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: rgb(204, 188, 188);
+    margin-top: 20px;
+    line-height: 15px;
+
+}
+.language-wrap{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.language-wrap h3 {
+    padding: 10px;
+}
