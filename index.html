@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rsschool-cv-html</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="main-wrapper">
+          <div class="heading-wrap">
+            <h1 id="CharacterName">Ivane Chitishvili</h1>
+          </div>
+          <div class="navigation">
+            <nav>
+              <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#educate">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#code-example">Code Example</a></li>
+                <li><a href="#language">Language</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <div class="content-wrap">
+        <div class="about-me-content">
+          <div class="about-me" id="about">
+            <h2 class="content-heading">About Me</h2>
+            <div class="line-1"></div>
+            <p class="text">
+              My name is Ivane Chitishvili and I live in Gori, Georgia. 23 years old.
+              I was studying Archaeology in the university while I decided to try out 
+              different types of design that I would have been able to perform in the 
+              personal computer, such as video montage, Photoshop and so on. As a started 
+              studying programming languages, I realized that I would want to pick web 
+              programming as my profession and so I am eager to work with other enthuasiasts
+               of the same sphere and better myself further.
+            </p>
+          </div>
+          <div class="education" id="educate">
+            <h2 class="content-heading">Education</h2>
+            <div class="line-1"></div>
+            <div class="educatin-text">
+              <h3>
+                - Ilia State University: Art and Science - Archaeology
+              </h3>
+            </div>
+          </div>
+          <div class="skills" id="skill">
+            <h2 class="content-heading">Skills</h2>
+            <div class="line-1"></div>
+            <div class="skill-list">
+              <ul>
+                <li>Html5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Editors: VSCode</li>
+              </ul>
+            </div>
+          </div>
+          <div class="code" id="code-example">
+            <h2 class="content-heading">Code Example</h2>
+            <div class="line-1"></div>
+            <div class="code-example"></div>
+              <pre>
+                    <code>
+                      const num1 = parseFloat(prompt("Pick the first number: "));
+                      const num2 = parseFloat(prompt("Pick the second number: "));
+                      const num3 = parseFloat(prompt("Pick the third number: "));
+                      
+                      const largest = Math.max(num1, num2, num3);
+                        
+                      console.log("Among these three numbers the largest one is " + largest);
+                    </code>
+                </pre>
+          </div>
+            <div class="languages" id="language">
+              <h2 class="content-heading">Language</h2>
+              <div class="line-1"></div>
+              <div class="language-wrap">
+                <h3>- Georgian - Native</h3>
+                <h3>- English - Fluent</h3>
+                <h3>- Russian - B2 +</h3>
+              </div>
+            </div>
+          <div>
+            <div class="experience-wrap" id="experience">
+              <h2 class="content-heading">Experience</h2>
+              <div class="line-1"></div>
+              <h3 id="exp-heading">
+                - freeCodeCamp - Responsive Web Design
+                - freeCodeCamp - JavaScript Algorithms and Data Structures
+              </h3>
+            </div>
+            <div class="contact" id="contact">
+              <h2 class="content-heading">Contact</h2>
+              <div class="line-1"></div>
+              <div class="contact-box">
+                <img
+                  src="./img/envelope-regular.svg"
+                  alt="email"
+                  class="contact-logos"/>
+                <a
+                  href="mailto:ivane.chitishvili@outlook.com"
+                  title="Ivane.chitishvili@outlook.com"
+                  target="_blank"
+                  >Ivane.chitishvili@outlook.com</a
+                >
+              </div>
+              <div class="contact-box">
+                <img
+                  src="./img/facebook-brands.svg"
+                  alt="facebok"
+                  class="contact-logos"/>
+                <a
+                  href="https://www.facebook.com/LucisCaelum.4"
+                  title="https://www.facebook.com/LucisCaelum.4"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </div>
+              <div class="contact-box">
+                <img
+                  src="./img/linkedin-brands.svg"
+                  alt="linkeden"
+                  class="contact-logos"/>
+                <a
+                  href="https://www.linkedin.com/in/ivane-chitishvili-a577b2235/"
+                  title="https://www.linkedin.com/in/ivane-chitishvili-a577b2235/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div id="footer">
+          <div>
+            <a href="https://github.com/n1er4"
+              ><img
+                src="./img/githublogo.png"
+                alt="githublogo"
+                class="footer-logo"/>
+            </a>
+          </div>
+          <div>
+            <a href="#CharacterName"
+              ><img src="./img/icons8-home.svg" alt="home" class="footer-logo"/>
+            </a>
+          </div>
+          <div>
+            <h2>April 2022</h2>
+          </div>
+          <div>
+            <a href="https://rs.school/js-en/"
+              ><img
+                src="./img/rschool.jpg"
+                alt="rschool logo"
+                id="rschool-logo"
+                class="footer-logo"/>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
