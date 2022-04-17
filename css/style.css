@@ -99,3 +99,24 @@ pre{
 .language-wrap h3 {
     padding: 10px;
 }
+.protf-img{
+    width: 390px;
+    height:207px;
+}
+#exp-heading {
+    font-size: 1.5rem;
+    padding: 20px;
+}
+.contact-logos{
+    width: 25px;
+    color: rgb(196, 28, 154);
+}
+.contact-box{
+    display: flex;
+    margin: 10px;
+}
+.contact-box a{
+padding-left: 10px;
+color: rgb(233, 19, 137);
+font-size: 1.5rem;
+}
